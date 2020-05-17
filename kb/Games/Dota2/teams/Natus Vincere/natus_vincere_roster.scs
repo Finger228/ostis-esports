@@ -1,0 +1,14 @@
+roster_natus_vincere_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+        [Natus Vincere Dota 2 roster](* <-lang_en;; *);
+        [Dota 2 состав Natus Vincere](* <-lang_ru;; *);
+
+
+	->rrel_carry_dota: player_crystallize_dota;
+	->rrel_midlaner_dota: player_magical_dota;
+	->rrel_offlaner_dota: player_9pasha_dota;
+	->rrel_semi_support_dota: player_cematheslayer_dota;
+	->rrel_full_support_dota: player_illias_dota;;

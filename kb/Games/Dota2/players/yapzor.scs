@@ -1,0 +1,442 @@
+player_yapzor_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[YapzOr](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: jordan;
+	=>nrel_surname: jaradat;
+	=>nrel_first_name: yazied;
+	=>nrel_nickname: player_yapzor_dota;
+	=>nrel_birthday: 1994_10_17
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1994-10-17](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [17];;
+			=> nrel_date_month: [10];;
+			=> nrel_date_year: [1994];;
+		*);
+	    
+	<=nrel_with_whom: contract_yapzor_and_team_whyare_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and WhyAre](* <-lang_en;; *);
+			[Контракт между YapzOr и WhyAre](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: whyare;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20110911
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2011-09-11](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [11];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2011];;
+				*);;
+			->rrel_end: 2011xxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2011-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [2011];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_gaming_republic_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Gaming Republic](* <-lang_en;; *);
+			[Контракт между YapzOr и Gaming Republic](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: gaming_republic;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20120328
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2012-03-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2012];;
+				*);;
+			->rrel_end: 20131025
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-10-25](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2013];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_think_smart_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Think Smart](* <-lang_en;; *);
+			[Контракт между YapzOr и Think Smart](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: think_smart;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20130627
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-06-27](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [27];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2013];;
+				*);;
+			->rrel_end: 20140410
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-04-10](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [10];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_4_bunnies_1_turtle_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and 4 Bunnies 1 Turtle](* <-lang_en;; *);
+			[Контракт между YapzOr и 4 Bunnies 1 Turtle](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 4_bunnies_1_turtle;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20140901
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-09-01](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [01];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20141217
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-12-17](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [17];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_balkan_bears_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Balkan Bears](* <-lang_en;; *);
+			[Контракт между YapzOr и Balkan Bears](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: balkan_bears;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20141217
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-12-17](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [17];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_monkey_freedom_fighters_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Monkey Freedom Fighters](* <-lang_en;; *);
+			[Контракт между YapzOr и Monkey Freedom Fighters](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: monkey_freedom_fighters;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151009
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_monkey_freedom_fighters_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Monkey Freedom Fighters](* <-lang_en;; *);
+			[Контракт между YapzOr и Monkey Freedom Fighters](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: monkey_freedom_fighters;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20151018
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-18](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [18];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151207
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-12-07](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [07];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_novaseline_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and NO-VASELINE](* <-lang_en;; *);
+			[Контракт между YapzOr и NO-VASELINE](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: novaseline;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20151207
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-12-07](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [07];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151231
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-12-31](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [31];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_mamas_boys_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Mamas Boys](* <-lang_en;; *);
+			[Контракт между YapzOr и Mamas Boys](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: mamas_boys;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20160102
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-01-02](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [02];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20160229
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-02-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_no_diggity_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and No Diggity](* <-lang_en;; *);
+			[Контракт между YapzOr и No Diggity](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: no_diggity;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20160229
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-02-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20160621
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-06-21](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [21];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_escape_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Escape Gaming](* <-lang_en;; *);
+			[Контракт между YapzOr и Escape Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: escape_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20160621
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-06-21](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [21];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20161227
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-12-27](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [27];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_bears_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and B)ears](* <-lang_en;; *);
+			[Контракт между YapzOr и B)ears](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: bears;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20161230
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-12-30](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [30];;
+					=> nrel_date_month: [12];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20170418
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-04-18](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [18];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2017];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_yapzor_and_team_team_secret_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between YapzOr and Team Secret](* <-lang_en;; *);
+			[Контракт между YapzOr и Team Secret](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_secret;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20170504
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-05-04](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [04];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2017];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	

@@ -1,0 +1,571 @@
+player_w33_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[w33](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: romania;
+	=>nrel_country: syria;
+	=>nrel_surname: omar;
+	=>nrel_first_name: aliwi;
+	=>nrel_nickname: player_w33_dota;
+	=>nrel_birthday: 1995_03_06
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1995-03-06](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [06];;
+			=> nrel_date_month: [03];;
+			=> nrel_date_year: [1995];;
+		*);
+	    
+	<=nrel_with_whom: contract_w33_and_team_balkan_bears_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Balkan Bears](* <-lang_en;; *);
+			[Контракт между w33 и Balkan Bears](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: balkan_bears;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201405xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-05-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20150110
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-01-10](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [10];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_meepwnd_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and MeePwn'd](* <-lang_en;; *);
+			[Контракт между w33 и MeePwn'd](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: meepwnd;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150110
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-01-10](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [10];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20150306
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-03-06](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [06];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_balkan_bears_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Balkan Bears](* <-lang_en;; *);
+			[Контракт между w33 и Balkan Bears](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: balkan_bears;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150306
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-03-06](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [06];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20150511
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-05-11](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [11];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_4_clover_and_lepricon_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and 4 Clover & Lepricon](* <-lang_en;; *);
+			[Контракт между w33 и 4 Clover & Lepricon](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 4_clover_and_lepricon;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150517
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-05-17](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [17];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20150821
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-21](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [21];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_team_secret_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Team Secret](* <-lang_en;; *);
+			[Контракт между w33 и Team Secret](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_secret;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150822
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-22](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [22];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20160322
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-03-22](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [22];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_digital_chaos_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Digital Chaos](* <-lang_en;; *);
+			[Контракт между w33 и Digital Chaos](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: digital_chaos;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20160326
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-03-26](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [26];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20170414
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-04-14](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [14];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2017];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_thunderbirds_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Thunderbirds](* <-lang_en;; *);
+			[Контракт между w33 и Thunderbirds](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: thunderbirds;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20170414
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-04-14](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [14];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2017];;
+				*);;
+			->rrel_end: 20170531
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-05-31](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [31];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2017];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_planet_odd_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Planet Odd](* <-lang_en;; *);
+			[Контракт между w33 и Planet Odd](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: planet_odd;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20170531
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-05-31](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [31];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2017];;
+				*);;
+			->rrel_end: 20170801
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-08-01](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [01];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2017];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_midorfeed_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and MidOrFeed](* <-lang_en;; *);
+			[Контракт между w33 и MidOrFeed](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: midorfeed;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20170829
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-08-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2017];;
+				*);;
+			->rrel_end: 20171127
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-11-27](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [27];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2017];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_penta_sports_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and PENTA Sports](* <-lang_en;; *);
+			[Контракт между w33 и PENTA Sports](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: penta_sports;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20180205
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-02-05](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [05];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20180304
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-03-04](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [04];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2018];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_going_in_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Going in](* <-lang_en;; *);
+			[Контракт между w33 и Going in](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: going_in;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20180304
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-03-04](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [04];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20180402
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-04-02](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [02];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2018];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_pain_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and paiN Gaming](* <-lang_en;; *);
+			[Контракт между w33 и paiN Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: pain_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20180414
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-04-14](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [14];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20180907
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-09-07](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [07];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2018];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_pain_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and paiN Gaming](* <-lang_en;; *);
+			[Контракт между w33 и paiN Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: pain_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20180918
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-09-18](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [18];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20190115
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-01-15](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [15];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_chaos_esports_club_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Chaos Esports Club](* <-lang_en;; *);
+			[Контракт между w33 и Chaos Esports Club](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: chaos_esports_club;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190115
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-01-15](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [15];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20190509
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-05-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_chaos_esports_club_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Chaos Esports Club (Inactive)](* <-lang_en;; *);
+			[Контракт между w33 и Chaos Esports Club (Inactive)](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: chaos_esports_club;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190509
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-05-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20190620
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-20](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [20];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Team Liquid](* <-lang_en;; *);
+			[Контракт между w33 и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190620
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-20](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [20];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20190913
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-09-13](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [13];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_w33_and_team_team_nigma_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between w33 and Team Nigma](* <-lang_en;; *);
+			[Контракт между w33 и Team Nigma](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_nigma;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20191125
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-11-25](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	

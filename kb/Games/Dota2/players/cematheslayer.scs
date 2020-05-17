@@ -1,0 +1,410 @@
+player_cematheslayer_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[CemaTheSlayer](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: ukraine;
+	=>nrel_surname: krivulya;
+	=>nrel_first_name: semion;
+	=>nrel_nickname: player_cematheslayer_dota;
+	=>nrel_birthday: 1994_03_09
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1994-03-09](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [09];;
+			=> nrel_date_month: [03];;
+			=> nrel_date_year: [1994];;
+		*);
+	    
+	<=nrel_with_whom: contract_cematheslayer_and_team_aurochs_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Aurochs](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Aurochs](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: aurochs;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201303xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-03-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2013];;
+				*);;
+			->rrel_end: 2013xxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [2013];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_dts2010_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and DTS2010](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и DTS2010](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: dts2010;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 2013xxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [2013];;
+				*);;
+			->rrel_end: 201310xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2013-10-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2013];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_courage_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Courage](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Courage](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: courage;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201402xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-02-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 201403xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-03-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_ahead_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Ahead Gaming](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Ahead Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: ahead_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201403xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-03-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 201404xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-04-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_aware_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Aware](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Aware](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: aware;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201404xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-04-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 201406xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-06-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_buhlouropb_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and BUHLO-UroPb](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и BUHLO-UroPb](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: buhlouropb;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 201411xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-11-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20141124
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-11-24](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [24];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_vega_squadron_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Vega Squadron](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Vega Squadron](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: vega_squadron;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20141124
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-11-24](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [24];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20180903
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-09-03](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [03];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2018];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_odium_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Odium](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Odium](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: odium;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20180903
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-09-03](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [03];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20181003
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-10-03](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [03];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2018];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_the_pango_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and The Pango](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и The Pango](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: the_pango;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20181005
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2018-10-05](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [05];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2018];;
+				*);;
+			->rrel_end: 20190629
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_flytomoon_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and FlyToMoon](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и FlyToMoon](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: flytomoon;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190629
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20200201
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2020-02-01](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [01];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2020];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_natus_vincere_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Natus Vincere (Stand-in)](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Natus Vincere (Stand-in)](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: natus_vincere;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20200202
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2020-02-02](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [02];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2020];;
+				*);;
+			->rrel_end: 20200319
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2020-03-19](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [19];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2020];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_cematheslayer_and_team_natus_vincere_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between CemaTheSlayer and Natus Vincere](* <-lang_en;; *);
+			[Контракт между CemaTheSlayer и Natus Vincere](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: natus_vincere;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20200319
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2020-03-19](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [19];;
+					=> nrel_date_month: [03];;
+					=> nrel_date_year: [2020];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	
