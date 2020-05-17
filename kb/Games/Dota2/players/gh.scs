@@ -1,0 +1,154 @@
+player_gh_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[GH](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: lebanon;
+	=>nrel_surname: merhej;
+	=>nrel_first_name: maroun;
+	=>nrel_nickname: player_gh_dota;
+	=>nrel_birthday: 1995_06_17
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1995-06-17](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [17];;
+			=> nrel_date_month: [06];;
+			=> nrel_date_year: [1995];;
+		*);
+	    
+	<=nrel_with_whom: contract_gh_and_team_wired_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between GH and Wired Gaming](* <-lang_en;; *);
+			[Контракт между GH и Wired Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: wired_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 2014xxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 201xxxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[201x-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [201x];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_gh_and_team_elab_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between GH and E-LAB](* <-lang_en;; *);
+			[Контракт между GH и E-LAB](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: elab;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150829
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 2016xxxx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-xx-xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_gh_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between GH and Team Liquid](* <-lang_en;; *);
+			[Контракт между GH и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20170102
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2017-01-02](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [02];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2017];;
+				*);;
+			->rrel_end: 20190913
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-09-13](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [13];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_gh_and_team_team_nigma_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between GH and Team Nigma](* <-lang_en;; *);
+			[Контракт между GH и Team Nigma](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_nigma;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20191125
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-11-25](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	

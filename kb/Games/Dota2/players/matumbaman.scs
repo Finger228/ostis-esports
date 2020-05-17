@@ -1,0 +1,282 @@
+player_matumbaman_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[MATUMBAMAN](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: finland;
+	=>nrel_surname: aukusti_urpalainen;
+	=>nrel_first_name: lasse;
+	=>nrel_nickname: player_matumbaman_dota;
+	=>nrel_birthday: 1995_03_03
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1995-03-03](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [03];;
+			=> nrel_date_month: [03];;
+			=> nrel_date_year: [1995];;
+		*);
+	    
+	<=nrel_with_whom: contract_matumbaman_and_team_veni,vidi,vici_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Veni,Vidi,Vici](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Veni,Vidi,Vici](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: veni,vidi,vici;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20140624
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-06-24](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [24];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20140930
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-09-30](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [30];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_4_anchors_+_sea_captain_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and 4 Anchors + Sea Captain](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и 4 Anchors + Sea Captain](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 4_anchors_+_sea_captain;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20140930
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-09-30](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [30];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_5jungz_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and 5Jungz](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и 5Jungz](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 5jungz;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151009
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Team Liquid](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20151009
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20190612
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-12](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [12];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Team Liquid (Inactive)](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Team Liquid (Inactive)](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190612
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-12](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [12];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20190622
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-22](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [22];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_chaos_ec_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Chaos EC](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Chaos EC](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: chaos_ec;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190622
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-06-22](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [22];;
+					=> nrel_date_month: [06];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20190830
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-08-30](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [30];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_chaos_ec_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Chaos EC (Inactive)](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Chaos EC (Inactive)](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: chaos_ec;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20190830
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-08-30](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [30];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: 20191029
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-10-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_matumbaman_and_team_team_secret_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MATUMBAMAN and Team Secret](* <-lang_en;; *);
+			[Контракт между MATUMBAMAN и Team Secret](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_secret;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20191104
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-11-04](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [04];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	

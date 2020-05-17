@@ -1,0 +1,250 @@
+player_mind_control_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[MinD_ContRoL](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: bulgaria;
+	=>nrel_surname: borislavov_ivanov;
+	=>nrel_first_name: ivan;
+	=>nrel_nickname: player_mind_control_dota;
+	=>nrel_birthday: 1995_01_20
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1995-01-20](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [20];;
+			=> nrel_date_month: [01];;
+			=> nrel_date_year: [1995];;
+		*);
+	    
+	<=nrel_with_whom: contract_mind_control_and_team_vast_cast_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and Vast Cast](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и Vast Cast](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: vast_cast;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20140210
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-02-10](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [10];;
+					=> nrel_date_month: [02];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20140429
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-04-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_aftershock_gaming_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and Aftershock Gaming](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и Aftershock Gaming](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: aftershock_gaming;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20140429
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-04-29](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [29];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20141121
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-11-21](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [21];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2014];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_basically_unknown_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and Basically Unknown](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и Basically Unknown](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: basically_unknown;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20141121
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2014-11-21](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [21];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2014];;
+				*);;
+			->rrel_end: 20150505
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-05-05](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [05];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_hehe_united_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and hehe united](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и hehe united](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: hehe_united;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150515
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-05-15](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [15];;
+					=> nrel_date_month: [05];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20150801
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-01](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [01];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_5jungz_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and 5Jungz](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и 5Jungz](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: 5jungz;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151009
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and Team Liquid](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20151009
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-09](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [09];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20190913
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-09-13](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [13];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_mind_control_and_team_team_nigma_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between MinD_ContRoL and Team Nigma](* <-lang_en;; *);
+			[Контракт между MinD_ContRoL и Team Nigma](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_nigma;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20191125
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-11-25](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	

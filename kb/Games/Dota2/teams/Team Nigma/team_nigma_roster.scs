@@ -1,0 +1,14 @@
+roster_team_nigma_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+        [Team Nigma Dota 2 roster](* <-lang_en;; *);
+        [Dota 2 состав Team Nigma](* <-lang_ru;; *);
+
+
+	->rrel_carry_dota: player_miracle_dota;
+	->rrel_midlaner_dota: player_w33_dota;
+	->rrel_offlaner_dota: player_mind_control_dota;
+	->rrel_semi_support_dota: player_gh_dota;
+	->rrel_full_support_dota: player_kuroky_dota;;

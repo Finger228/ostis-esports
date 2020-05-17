@@ -1,0 +1,187 @@
+player_miracle_dota
+
+	<-sc_node_not_relation;
+
+	=> nrel_main_idtf:
+		[Miracle-](* <-lang_en; lang_ru;; *);
+
+	<-player_dota;	
+
+	
+	=>nrel_country: jordan;
+	=>nrel_country: poland;
+	=>nrel_surname: albarkawi;
+	=>nrel_first_name: amer;
+	=>nrel_nickname: player_miracle_dota;
+	=>nrel_birthday: 1997_06_20
+		(*
+			<-sc_node_not_relation;;
+			=> nrel_main_idtf:
+				[1997-06-20](* <-lang_en; lang_ru;; *);;
+			<- date;;
+			=> nrel_date_day: [20];;
+			=> nrel_date_month: [06];;
+			=> nrel_date_year: [1997];;
+		*);
+	    
+	<=nrel_with_whom: contract_miracle_and_team_balkan_bears_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Miracle- and Balkan Bears](* <-lang_en;; *);
+			[Контракт между Miracle- и Balkan Bears](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: balkan_bears;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150101
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-01-01](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [01];;
+					=> nrel_date_month: [01];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20150402
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-04-02](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [02];;
+					=> nrel_date_month: [04];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_miracle_and_team_monkey_business_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Miracle- and (monkey) Business](* <-lang_en;; *);
+			[Контракт между Miracle- и (monkey) Business](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: monkey_business;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20150828
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-08-28](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [28];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20151031
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-31](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [31];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_miracle_and_team_og_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Miracle- and OG](* <-lang_en;; *);
+			[Контракт между Miracle- и OG](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: og;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20151031
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2015-10-31](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [31];;
+					=> nrel_date_month: [10];;
+					=> nrel_date_year: [2015];;
+				*);;
+			->rrel_end: 20160823
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-08-23](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [23];;
+					=> nrel_date_month: [08];;
+					=> nrel_date_year: [2016];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_miracle_and_team_team_liquid_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Miracle- and Team Liquid](* <-lang_en;; *);
+			[Контракт между Miracle- и Team Liquid](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_liquid;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20160916
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2016-09-16](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [16];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2016];;
+				*);;
+			->rrel_end: 20190913
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-09-13](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [13];;
+					=> nrel_date_month: [09];;
+					=> nrel_date_year: [2019];;
+				*);;
+		*);;
+	*);    
+	<=nrel_with_whom: contract_miracle_and_team_team_nigma_dota
+	(*
+		=> nrel_main_idtf:
+			[Сontract between Miracle- and Team Nigma](* <-lang_en;; *);
+			[Контракт между Miracle- и Team Nigma](* <-lang_ru;; *);;
+		<-contract;;
+		=>nrel_with_what: team_nigma;;
+		=>nrel_period: ...
+		(*
+			<-period_of_time;;
+			->rrel_start: 20191125
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[2019-11-25](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [25];;
+					=> nrel_date_month: [11];;
+					=> nrel_date_year: [2019];;
+				*);;
+			->rrel_end: xxxx_xx_xx
+				(*
+					<-sc_node_not_relation;;
+					=> nrel_main_idtf:
+						[xxxx_xx_xx](* <-lang_en; lang_ru;; *);;
+					<- date;;
+					=> nrel_date_day: [xx];;
+					=> nrel_date_month: [xx];;
+					=> nrel_date_year: [xxxx];;
+				*);;
+		*);;
+	*);;
+	
